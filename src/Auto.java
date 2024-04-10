@@ -7,6 +7,7 @@ public class Auto {
         this.marca = marca;
         this.modello = modello;
     }
+
     //prendere il valore
     public String getCilindrata() {
         return cilindrata;
@@ -27,7 +28,8 @@ public class Auto {
     public String getMarca() {
         return marca;
     }
-    //mettere un valore
+
+    //assegnare un valore
     public void setMarca(String marca) {
         this.marca = marca;
     }
@@ -39,7 +41,8 @@ public class Auto {
     public void setModello(String modello) {
         this.modello = modello;
     }
-    //stampa classe
+
+    //stampa parametri classe
     @Override
     public String toString() {
         return "Auto{" +
